@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/Sname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student name :"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="30sp"
+        android:visibility="visible"></EditText>
+
+    <TextView
+        android:id="@+id/SID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Id :"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/Student_Id"
+        android:layout_width="372dp"
+        android:layout_height="53dp"
+        android:layout_margin="10dp"
+        android:textSize="30sp"></EditText>
+    <TextView
+        android:id="@+id/SSEmester"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Semester :"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/Semester"
+        android:layout_width="357dp"
+        android:layout_height="52dp"
+        android:layout_margin="10dp"
+        android:text=" "
+        android:textSize="30sp"></EditText>
+    <TextView
+        android:id="@+id/SCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course Code :"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/Course_code"
+        android:layout_width="355dp"
+        android:layout_height="51dp"
+        android:layout_margin="10dp"
+        android:text=" "
+        android:textSize="30sp"></EditText>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="160dp"
+        android:layout_height="71dp"
+        android:layout_margin="10dp"
+        android:shadowColor="@color/colorPrimary"
+        android:text="Save"
+        android:textColor="@color/colorPrimary" />
+
+
+    <TextView
+        android:id="@+id/Output"
+        android:layout_width="415dp"
+        android:layout_height="140dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="Output"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+
+
+</LinearLayout>
